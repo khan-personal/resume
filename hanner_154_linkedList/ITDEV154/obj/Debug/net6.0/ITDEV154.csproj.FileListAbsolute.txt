@@ -1,0 +1,15 @@
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.csproj.AssemblyReference.cache
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.AssemblyInfoInputs.cache
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.AssemblyInfo.cs
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.csproj.CoreCompileInputs.cache
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\bin\Debug\net6.0\ITDEV154.exe
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\bin\Debug\net6.0\ITDEV154.deps.json
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\bin\Debug\net6.0\ITDEV154.runtimeconfig.json
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\bin\Debug\net6.0\ITDEV154.dll
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\bin\Debug\net6.0\ref\ITDEV154.dll
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\bin\Debug\net6.0\ITDEV154.pdb
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.dll
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ref\ITDEV154.dll
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.pdb
+C:\Users\Ken\source\repos\ITDEV154\ITDEV154\obj\Debug\net6.0\ITDEV154.genruntimeconfig.cache
