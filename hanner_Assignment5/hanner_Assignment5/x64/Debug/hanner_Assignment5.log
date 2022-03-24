@@ -1,0 +1,6 @@
+﻿  Reel.cpp
+C:\Users\Ken\source\repos\hanner_Assignment5\hanner_Assignment5\Reel.cpp(4,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  SlotMachine.cpp
+  hanner_Assignment5.cpp
+  Generating Code...
+  hanner_Assignment5.vcxproj -> C:\Users\Ken\source\repos\hanner_Assignment5\x64\Debug\hanner_Assignment5.exe
