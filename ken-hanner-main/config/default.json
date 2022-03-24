@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://itdev161:hunsicker@cluster0.g4yjx.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+    "jwtSecret": "doorsandcorners"
+}
