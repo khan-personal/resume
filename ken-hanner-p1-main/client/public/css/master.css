@@ -1,0 +1,267 @@
+/* general formatting */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #1d3855;
+}
+
+header {
+    font-size: larger;
+    width: auto;
+    padding-left: 15px;
+}
+
+h1 {
+    color: rgb(194, 192, 192);
+}
+
+
+
+footer {
+    width: auto;
+    color: rgb(194, 192, 192);
+    margin: 10px;
+    padding: 10px;    
+}
+
+#parent-contact {
+    font-size: large;
+    color: rgb(194, 192, 192);
+    
+}
+
+a {
+    text-decoration: none;
+    color: tomato;
+}
+
+#empty-box {
+    height: 200px;
+}
+
+    /*apps*/
+    /*chat app*/
+    #chat-app {
+        min-width: 200px;
+        margin: 15px;
+        padding: 10px;
+        background-color: #2d445c;
+    }
+
+    .messages {
+        margin-bottom: 20px;
+    }
+
+    .out-message {
+        width: auto;
+        margin: 10px;
+        padding: 10px;
+        background-color: lightblue;
+        word-wrap: normal;
+    }
+
+    .in-message {
+        width: auto;
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(137, 151, 177);
+        word-wrap: normal;
+    }
+
+    #message-container {
+        width: auto;
+    }
+/*chat app*/
+    /*task app*/
+    #todo-app {
+        width: auto;
+        padding: 10px;
+        margin: 15px;color: rgb(194, 192, 192);
+    }
+
+    #list-app ul  {
+        border: solid 1px grey;
+        margin: 0;
+    }
+
+    #list-app li {
+        padding: 5px;
+    }
+
+    #complete-list {
+        list-style-type: none;
+    }
+
+    #active-list li {
+        color: rgb(194, 192, 192);
+    }
+
+    #completed-list li {
+        text-decoration: line-through;
+        color: rgb(134, 134, 134);
+    }
+/*task app*/
+    /*event app */
+    #list-app {
+        width: auto;
+        padding: 10px;
+        margin: 15px;
+        color: rgb(194, 192, 192);
+    }
+
+    .modal {
+        display: none;
+        position: absolute;
+        padding: 10px;
+        border: solid 1px #555;
+        background-color: #fff;
+        z-index: 99999;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .modal.visible {
+        display: block;
+    }
+
+    .modal-content {
+        width: 300px;
+    }
+    
+    #edit-title {
+        width: 300px;
+    }
+
+    #edit-title-message, #edit-content-message {
+        color: red;
+        font-style: italic;
+        font-size: small;
+        width: 100%;
+    }
+    /*modal backdrop*/
+        #modal-backdrop {
+            display: none;
+            position: absolute;
+            height: 100vh;
+            width: 100vw;
+            left: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.75);
+        }
+
+        #modal-backdrop.visible {
+            display: block;
+        }
+/*event app */
+    /*faq app*/
+    #post-container {
+        min-width: 200px;
+        margin: 15px;
+        padding: 10px;
+        background-color: #2d445c;
+        color: rgb(194, 192, 192);  
+    }
+
+    #sidebar {
+        background-color: #1d3855;
+        width: 200px;
+    }
+
+    #sidebar ul {
+        padding: 0;
+        list-style-type: none;
+        vertical-align: auto;
+    }
+
+    #sidebar ul li {
+        color: rgb(194, 192, 192);
+        padding: 0 0 10px 20px;
+    }
+
+    #sidebar ul li:hover {
+        cursor: pointer;
+        background-color: #172e46;
+    }
+
+    #chat-app h3 {
+        color: rgb(194, 192, 192);
+        text-align: left;
+        margin: 5px;
+    }
+
+    #list-app h3 {
+        color: rgb(194, 192, 192);
+        margin: 5px;
+    }
+
+    #input-task {
+        margin: 10px;
+    }
+
+    #add-task {
+        padding: 5px;
+        margin: 10px;
+    }
+/*faq app*/
+/*apps*/
+
+/*flex box*/
+header {
+    flex-grow: 4;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;    
+}
+    #column-one {
+        order: 1;
+        display:flex;
+        flex-direction: column;
+    }    
+        #sidebar {
+            order: 1;
+        }
+        #empty-box {
+            order: 2;
+        }        
+    #column-two {
+        order: 2;
+        display: flex;
+        flex-grow: 3;
+        flex-direction: column;
+    }
+        #post-container {
+            order: 1;
+            flex: 2;
+            flex-grow: 2;
+        }     
+        #chat-app {
+            order: 2;
+            flex: 2;
+            flex-grow: 2;
+            
+        }    
+        
+    #column-three {
+        order: 3;
+        display: flex;
+        flex-direction: column;
+    }
+        #todo-app {
+            order: 1;
+            flex: 1;    
+        }
+        #list-app {
+            order: 2;
+            flex: 1;
+        }
+
+footer {
+    flex: 4;
+}
+/*flex box*/
