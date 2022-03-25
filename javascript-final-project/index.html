@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babysitting Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/master.css">
+    <link rel="icon" href="images/baby.png">
+</head>
+<body>
+    <header>
+        <h1>Virtual Babysitting Dashboard</h1>
+    </header>
+    <main>
+        <div id="column-one">
+            <section id="sidebar">
+                <ul id="nav-container"></ul>
+            </section>
+            <section id="empty-box"></section>
+            
+            
+        </div>
+        <div id="column-two">
+            <section id="post-container">
+                <section id="intro">
+                    <h2>Welcome to your virtual dashboard!</h2>
+                    <p>View FAQ on the left, note any events on the right,
+                        and communicate with your babysitter/parents below.
+                        Please be sure to review any tasks and click them
+                        to mark them complete when finished.</p>
+                </section>
+            </section>
+            <section id="chat-app">
+                <h3>Chat Board</h3>
+                <section id="message-container" class="messages"></section>
+                <section>
+                    <input type="text" id="message-input">
+                    <button type="button" id="parent-button">Parent</button>
+                    <button type="button" id="babysitter-button">Babysitter</button>
+                </section>
+            </section>
+        </div>
+        <div id="column-three">
+            <section id="todo-app">
+                <span><button id="new-button">New Issue</button></span>
+                <h3>Issues:</h3>
+                <section id="display-content"></section>
+            </section>
+            <section id="list-app">
+                <h3>Tasks:</h3>
+                <section>
+                    <ol id="active-list"></ol>
+                    <ul id="completed-list"></ul>
+                </section>
+                <section>
+                    <input type="text" id="input-task">                    
+                    <button type="button" id="add-task">Add</button>
+                </section>                
+            </section>
+            
+        </div>
+    </main>
+    <footer>
+        <section id="parent-contact">Call parents at <a href="tel:414-642-7531">(414)642-7531</a>
+            <br>Not urgent email at <a href="mailto:address@mail.com">address@mail.com</a></section>
+    </footer>
+    <!-- modal dialog (hidden by default)-->
+    <div class="modal" id="modal-dialog">
+        <section>
+            <h3>Event</h3>
+            <input type="text" id="edit-title-text">
+            <span id="edit-title-message"></span>
+        </section>
+        <section>
+            <h3>Time</h3>
+            <input type="text" id="edit-content-text"></input>
+            <span id="edit-content-message"></span>
+        </section>        
+        <footer><br>
+            <button type="button" id="cancel-button">Cancel</button>
+            <button type="button" id="save-button">Save</button>
+        </footer>
+    </div>
+    <div id="modal-backdrop"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/faq.js" charset="utf-8"></script>
+    <script src="js/task.js" charset="utf-8"></script>
+    <script src="js/chat.js" charset="utf-8"></script>
+    <script src="js/event.js" charset="utf-8"></script>
+</body>
+</html>
