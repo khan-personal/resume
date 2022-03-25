@@ -1,0 +1,5 @@
+﻿  Hanner_Assignment6.cpp
+  Player.cpp
+C:\Users\Ken\source\repos\Hanner_Assignment6\Hanner_Assignment6\Player.cpp(9,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Generating Code...
+  Hanner_Assignment6.vcxproj -> C:\Users\Ken\source\repos\Hanner_Assignment6\x64\Debug\Hanner_Assignment6.exe

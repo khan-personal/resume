@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hanner_Assignment6", "Hanner_Assignment6\Hanner_Assignment6.vcxproj", "{CCDD13E6-3858-4A1E-A9ED-DD060756522F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Debug|x64.ActiveCfg = Debug|x64
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Debug|x64.Build.0 = Debug|x64
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Debug|x86.ActiveCfg = Debug|Win32
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Debug|x86.Build.0 = Debug|Win32
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Release|x64.ActiveCfg = Release|x64
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Release|x64.Build.0 = Release|x64
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Release|x86.ActiveCfg = Release|Win32
+		{CCDD13E6-3858-4A1E-A9ED-DD060756522F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D0ACA582-5690-4EE7-8F3F-4C0CBE5D2806}
+	EndGlobalSection
+EndGlobal
