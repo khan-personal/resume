@@ -1,0 +1,6 @@
+item	name	subcat	color	vendor
+407	king	2	red	Budgeco
+44	queen	3	blue	Bobcorp
+483	double	15	black	Jorgonix
+592	single	3	pink	Simonion
+290	none	99
